@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9B519"
+    android:stretchColumns="1"
+
+    tools:context=".SecondActivity">
+
+    <TableRow
+        android:id="@+id/titleRowId"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Movie Details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:id="@+id/headerId"
+        android:background="@android:color/holo_blue_bright">
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Number"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Name"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Genre"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="IMDB Rating"
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/row2Id"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="1."
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Avengers"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Action"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="8.4"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/row3Id"
+        android:background="#ff22">
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="2."
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Boss Baby"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Comedy"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="7.5"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+
+        android:id="@+id/row4Id"
+        android:background="#11DD54">
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="3."
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Interstellar"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Sci-Fi"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="50dp"
+            android:text="9.5"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_column="1"
+            android:text="action"
+            android:textSize="16sp"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_column="2"
+            android:text="comedy"
+            android:textSize="16sp"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:layout_column="3"
+            android:text="sci-fi"
+            android:textSize="16sp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_column="1"
+            android:text="next page"
+            android:textSize="16sp"
+            />
+
+
+
+    </TableRow>
+
+
+
+
+</TableLayout>
